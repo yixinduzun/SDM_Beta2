@@ -1,0 +1,20 @@
+<h1>Listing instruments for <%= params[:search_string] %></h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Offer id</th>
+    <th>Details</th>
+  </tr>
+
+<% for instrument in @instruments %>
+  <tr>
+    <td><%=h instrument.name %></td>
+    <td><%=h instrument.offer_id %></td>
+    <td><%=h instrument.details %></td>
+	<a href= "/instruments/<%=h instrument.id %>/show">Show</a>
+    <a href= "/instruments/<%=h instrument.id %>/edit">Edit</a>
+	<a href= "/instruments/<%=h instrument.id %>/delete">Delete</a>
+  </tr>
+<% end %>
+</table>

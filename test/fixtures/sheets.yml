@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  snum: MyString
+  name: MyString
+  start: 2014-11-11 13:46:31
+  finsish: 2014-11-11 13:46:31
+  cost: 9.99
+
+two:
+  snum: MyString
+  name: MyString
+  start: 2014-11-11 13:46:31
+  finsish: 2014-11-11 13:46:31
+  cost: 9.99
